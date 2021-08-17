@@ -1,0 +1,115 @@
+*{
+    background-color: rgb(73, 14, 14 ,0.3);
+}
+
+* styling for midone starts here */
+.midone{
+ height: 870px;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-attachment: fixed;
+ background: linear-gradient(rgba(20, 20, 20, 0.8), #141314cc), url("./Images/pexels-vecislavas-popa-1669799.jpg");
+ 
+ }
+ /* styling for midone ends here */
+ .box_two{
+ /* border: 2px solid green; */
+ margin: auto;
+ width: 80%;
+ height: 1220px;
+ }
+ .collectibles{
+ height: 100px;
+ /* border: 5px solid red; */
+ display: flex;
+ margin-top: 20px;
+ 
+ }
+ .collectiblesone h1 {
+ font-size: 26px;
+ text-align: center;
+ padding: 10px;
+ color: gold;
+ }
+ 
+ 
+ 
+ .tab{
+ height: 605px;
+ /* border: 2px solid peru; */
+ display: flex;
+ }
+ .tab1{
+ /* border: 3px solid red; */
+ height: 600px;
+ width: 70%;
+ }
+ table{
+ border-collapse: collapse;
+ 
+ padding: 20px;
+ }
+ tr th{
+ text-align: left;
+ padding: 15px;
+ color: gold;
+ font-weight: bolder;
+ font-size: 20px;
+ }
+ tr td{
+ padding: 20px;
+ color: gold;
+ font-weight: bold;
+ }
+ 
+ 
+ .tab2{
+ height: 25vh;
+ width: 25%;
+ margin-left: 20px;
+ margin-top: 70px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15)
+ ;
+ border-radius: 5px;
+ background-color: #E8C547;
+ color: #6E260E;
+ 
+ }
+ .tab2 h1{
+ text-align: center; 
+ }
+ 
+ 
+ 
+ .checkout{
+ height: 100px;
+ }
+ .checkout button{
+ background-color: rgb(73, 14, 14);
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+ color:gold;
+ width: 160px;
+ outline: none;
+ line-height: 50px;
+ border: none;
+ text-align: center;
+ margin-left: 350px;
+ margin-top:30px;
+ font-weight: bold;
+ }
+ .checkout button a{
+ color: gold;
+ text-decoration: none;
+ 
+ }
+ .checkout button:hover{
+ color: rgb(73, 14, 14);
+ background-color: gold;
+ line-height: 50px;
+ border: none;
+ }
+ .checkout a:hover{
+ color: rgb(73, 14, 14);
+ 
+ }
